@@ -17,7 +17,7 @@ with st.sidebar:
     
     lokasi = st.radio(
         "Lingkungan pengambilan citra:", 
-        ["Rumah Tangga / Dalam Ruangan", "TPA / Pengepul / Luar Ruangan"]
+        ["Rumah Tangga / Dalam Ruangan / Kampus / Sekolah", "TPA / Pengepul / Luar Ruangan"]
     )
     
     st.divider()
